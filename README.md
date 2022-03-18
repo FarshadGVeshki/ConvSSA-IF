@@ -21,22 +21,33 @@ Run the script files:
 6 - script_multifocus_fusion_3inputs.m: Multifocus image fusion with 3 inputs based on CSSA
 
 %
+
 The codes include:
 
 The covolutional simultaneous sparse approxiamtion algorithm with sparse-dense structure: ConvSSA_SparseDense.m
+
 The covolutional simultaneous sparse approxiamtion algorithm with sparse-sparse structure: ConvSSA_SparseSparse.m
+
 The multifocus image fusion algorithm: Multifocus_fusion_ConvSSA.m
+
 The NIR-RGB image fusion algorithm: NIR_VIS_fusion_ConvSSA.m
+
 The online convolutional dictionary learning algorithm of Wang et. al. 2018: OCDL.m and hist_update.m
+
 code for generating Gaussian random multiscale dictionaries: initdict.m
+
 code for visualizing multiscale filters: dict2image.m
+
 pre-learned dictionaries (.mat files in Dictionaries folder)
 
 %
+
 The code for lowpass filtering (lowpass.m) is taken from SPORCO toolbox.
 
 %
+
 Multifocus images are taken from the Lytro dataset: M. Nejati, S. Samavi and S. Shirani, “Multi-focus image fusion using dictionary-based sparse representation,” Inf. Fusion, vol. 25, pp. 72-84, 2015.
+
 NIR-RGB images are taken from EPFL RGB-NIR scene dataset
 
 %
