@@ -51,6 +51,7 @@ Multifocus images are taken from the Lytro dataset
 NIR-RGB images are taken from EPFL RGB-NIR scene dataset
 
 %
+
 Reference : FG Veshki, SA Vorobyov, Convolutional Simultaneous Sparse Approximation with Applications to RGB-NIR Image Fusion, 	arXiv:2203.09913, March 2022.
 
 
