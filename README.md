@@ -46,7 +46,7 @@ The code for lowpass filtering (lowpass.m) is taken from SPORCO toolbox.
 
 %
 
-Multifocus images are taken from the Lytro dataset: M. Nejati, S. Samavi and S. Shirani, “Multi-focus image fusion using dictionary-based sparse representation,” Inf. Fusion, vol. 25, pp. 72-84, 2015.
+Multifocus images are taken from the Lytro dataset
 
 NIR-RGB images are taken from EPFL RGB-NIR scene dataset
 
