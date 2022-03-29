@@ -46,7 +46,7 @@ tstrt = tic;
 while itr < MaxIter && (r > epri || s > edua)
     %% ADMM steps 
     Dprv = D;
-    G = ifft2(sum(invM.*reshape(H+sig*sqrt(w*h)*fft2(D-U),[h w 1 K]),4) ,'symmetric');
+    G = ifft2(    reshape(  sum(   invM.*reshape(H+sig*sqrt(w*h)*fft2(D-U),[h w K]),3)  ,[h w K])           ,'symmetric');
     Gr = alpha*G+(1-alpha)*D; % relaxation
     D = D_proj(Gr+U,m,h,w);
     if dcfilter,D(:,:,1)=Dprv(:,:,1); end
